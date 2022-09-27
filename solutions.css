@@ -76,3 +76,113 @@
         transform: rotate(360deg);
     }
 }
+
+/* non completo */
+.ex-11-icon:hover{
+    animation-name: ex-11-animation, ex-112-animation;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    /* animation-direction: alternate; */
+    animation-iteration-count: 1;
+}
+@keyframes ex-11-animation{
+
+    0%{
+        transform: rotate(0deg);
+    }
+    90%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: ex-12-animation;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    /* animation-direction: alternate; */
+    animation-iteration-count: 1;
+}
+@keyframes ex-12-animation{
+
+    0%{
+        left: 10%;
+    }
+
+    50%{
+        left: 60%;
+    }
+    100%{
+        left: 10%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: ex-12b-animation;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    /* animation-direction: alternate; */
+    animation-iteration-count: 1;
+}
+@keyframes ex-12b-animation{
+
+    0%{
+        right: 20%;
+    }
+
+    50%{
+        right: 60%;
+    }
+    100%{
+        right: 20%;
+    }
+}
+
+
+/* da completare */
+.ex-13-button:hover .ex-13-top-white{
+    animation-name: ex-13-animation;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    /* animation-direction: alternate; */
+    animation-iteration-count: 1;
+}
+@keyframes ex-13-animation{
+
+    0%{
+        left: 10%;
+    }
+
+    50%{
+        left: 60%;
+    }
+    100%{
+        left: 10%;
+    }
+}
+.ex-13-button:hover .ex-13-bottom-white{
+    animation-name: ex-13b-animation;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    /* animation-direction: alternate; */
+    animation-iteration-count: 1;
+}
+@keyframes ex-13b-animation{
+
+    0%{
+        right: 20%;
+    }
+
+    25%{
+        right: 80%;
+    }
+    50%{
+        bottom: 70px;
+        right: 100%;
+    }
+    75%{
+        right: 80%;
+    }
+}
